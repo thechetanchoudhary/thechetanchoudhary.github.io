@@ -401,6 +401,13 @@ button:focus {
   width: 100%;
 }
 
+@media screen and (max-width: 100vh) {
+  .particles-js {
+    height: 100vh !important;
+    min-height: unset !important;
+  }
+}
+
 .mu-featured-content p {
   color: #fff;
 }
